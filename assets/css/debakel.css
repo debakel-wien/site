@@ -9,15 +9,35 @@ html, body {
 
 html, h1, h2, h3 {
 	font: normal 400 1.5em/1.5 sans-serif;
+    color: #261e66;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, figure, pre {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 1.5rem;
 }
 
 body {
 
 }
 
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
 a {
 	text-decoration: underline;
 	border: none;
+    color: inherit;
 }
 
 a:hover, a:focus {
@@ -88,6 +108,15 @@ main {
 	max-width: 800px;
 	height: 100%;
 	background-color: rgba(0,56,127,1);
+    font-weight: 500;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item a {
+  border-bottom: 0;
 }
 
 .menu-item:not(:last-child)::after {
