@@ -126,6 +126,12 @@ main {
 	align-items: center;
 }
 
+.menu-icon>a:focus,
+.menu-icon>a:hover,
+.menu-icon>a:active {
+	transform: scale(2,2);
+}
+
 .menu-item {
   display: inline-block;
 }
