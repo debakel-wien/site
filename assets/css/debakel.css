@@ -7,7 +7,7 @@ html, body {
 	height: 100%;
 }
 
-html, h1, h2, h3 {
+html, h1, h2, h3, td {
 	font: normal 400 1.5em/1.5 sans-serif;
     color: #261e66;
 }
