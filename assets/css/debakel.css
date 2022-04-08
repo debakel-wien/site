@@ -163,6 +163,9 @@ main {
   .menu-icon {
     display: flex;
   }
+  .scrollable {
+      width: fit-content;
+  }
 }
 
 /*
@@ -212,7 +215,7 @@ img {
 	background-attachment: fixed;
 	background-size: contain;
 	background-size: 1280px 855px;
-	background-size: cover;
 	background-size: auto 100%;
+	background-size: cover;
 	padding-top: 26rem;
 }
