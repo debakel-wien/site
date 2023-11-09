@@ -41,6 +41,7 @@ h2,h3 {
 	margin: 0;
 }
 
+/*
 #header {
 	color: rgba(255,244,41,1);
 	height: 3em;
@@ -51,6 +52,7 @@ h2,h3 {
 	background-color: rgba(206, 207, 200, 1);
 	width: 100%;
 }
+*/
 
 nav {
 	width: 100%;
@@ -69,7 +71,7 @@ nav a:hover, nav a:focus {
 main {
 	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 3em;
+	/*padding-top: 3em;*/
 }
 
 .sammelsurium section {
